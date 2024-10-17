@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="modelo\Cliente.cs" />
+    <Compile Include="modelo\Factura.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="servicio\FacturaServicio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
